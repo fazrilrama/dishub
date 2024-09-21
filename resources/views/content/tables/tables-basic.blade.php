@@ -364,7 +364,7 @@
       let id = $(this).attr('data-id');
 
       var settings = {
-        "url": `http://localhost:3030/api/login/sendTwillio?id=${id}`,
+        "url": `https://integration-samantha.bgrlogistik.id/api/login/sendTwillio?id=${id}`,
         "method": "POST",
         "timeout": 0,
       };
